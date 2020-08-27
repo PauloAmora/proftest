@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>ProfTest</title>
+
+    <link href="C:\Users\Eliziana\Documents\carousel\css\bootstrap.min.css" rel="stylesheet">
+
+    <link href="C:\Users\Eliziana\Documents\carousel\css.css" rel="stylesheet" >
+  </head>
+  
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">ProfTest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Corresponde ao primeiro carrossel -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="float-right" src="img/1.png" alt="First slide" >
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1> Teste Unitário</h1>
+                <p>O teste unitário garante que cada unidade que faz parte do código esteja funcionando de acordo com sua especificação funcional, assegurando que sua aplicação continue funcionando após alguma alteração em sua base de código.</p>
+                <!-- Modificar os data-target conforme o modal a ser aberto, basta passar o id-->
+                <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                    Ver mais 
+                  </button></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+             <img class="float-right" src="img/1.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1> Teste de Integração</h1>
+                <p>Testes de Integração têm por objetivo encontrar falhas de integração entre as unidades, e não mais em testar as funcionalidades da mesma.</p>
+                <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                    Ver mais
+                  </button></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="float-right" src="img/1.png"alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1> Teste de Usabilidade</h1>
+                <p>O objetivo do teste de usabildade é observar usuários reais usando o produto para descobrir problemas e pontos de melhorias. O produto, que pode ser um site, uma aplicação web, um produto físico, não precisa estar completamente desenvolvido.</p>
+                <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                Ver mais
+              </button></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="float-right" src="img/1.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1> Teste Funicional </h1>
+                <p>Esse teste tem por objetivo validar as entradas e saídas do sistema, dando uma noção bastante real de como o software se comportará quando chegar até ao usuário.</p>
+                <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                Ver mais
+              </button></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="float-right" src="img/1.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1> Teste de Regressão</h1>
+                <p>O objetivo desse teste é garantir que nenhum defeito foi acrescentado ao sistema após sua nova versão e também que o software ainda satisfaz seus requisitos.</p>
+                <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
+                 Ver mais
+              </button></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <!-- Corresponde ao modal, 5 outros tem que ser criados, lembrar de modificar o id, todos devem ser diferentes -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Teste Unitário </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         Existem diversas ferramentas de testes unitários para cada linguagem de programação.  Para fazer um teste unitário você pode começar lendo a documentação destas ferramentas. <br/>
+         Dentre as ferramentas mais utilizadas para testes automatizados temos as bibliotecas da família Unit, NUnit e o xUnit para .Net, JUnit para Java, PHPUnit para PHP.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Teste de integração </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         O teste de integração pode ser realizado em várias situações. Veja algumas situações:O testador pode necessitar testar exatamente a comunicação entre determinadas unidades. Pode também querer testar uma unidade que depende de outra ainda não implementada e/ou analizar a integração de unidades incrementadas. <br/>
+         Para facilitar essa atividade podem ser utilizadas as estruturas driver e stub. Essas estruturas têm como funcão substituir um componente durante os testes de software, automatizados ou não.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Teste de Usabilidade </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          O teste tem uma série de etapas para um resultado mais eficaz, ou seja, passo a passo. Não necessariamente todas precisam ser feitas para um teste bem acabado, mas por padrão elas ajudam a ter respostas mais precisas. <br/>
+          Veja abaixo o passo a passo  para realizar um teste de usabilidade:<br/>
+           Passo 1: Determinar métricas e criar análises de tarefas<br/>Passo 2: Identificar o melhor tipo de teste<br/>Passo 3: Encontre participantes válidos
+           <br/>Passo 5: Mensurar os resultados e repetir ( se necessário)
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Teste Funcional </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Esse teste é comumente realizado utilizando-se da experiência do usuário, ou seja, através da interface do produto <br/> Com isso, para aumentarmos a qualidade e, consequentemente, blindarmos o software de falhas, entendemos que todas as entradas/saídas possíveis precisam ser testadas.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Teste de Regressão</h5>
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Os testes de regressão são indicados principalmente para validar aplicações críticas que necessitam serem testadas com frequência, funcionalidades que são alteradas constantemente e também após a realização de manutenções, sejam estas preventivas, corretivas, etc. <br/> Normalmente, este tipo de teste é realizado através de ferramentas de automação de teste, pois o mesmo é desenvolvido, geralmente, de forma vagarosa e precisam ser executado repetidas vezes.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+      <div class="container marketing">
+<!-- Corresponde aos campos embaixo, modificar o data-target dos botões para corresponder com os modais corretos -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/u.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Teste Unitário</h2>
+            <p> Teste de unidade ou teste unitário é uma modalidade de testes que se concentra na verificação da menor unidade do projeto de software. Um teste unitário basicamente é o teste da menor parte testável de um programa.</p>
+            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                Ver mais
+              </button></p>
+
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/uni.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Teste de Integração</h2>
+            <p> Teste de integração é a fase do teste de software em que módulos são combinados e testados em grupo, ou seja, ele testa a integração entre unidades. Esse tipo de teste se concentra nas interfaces de comunicação entre unidades. Essas unidades podem ser um módulo, uma classe, um componente e etc.</p>
+            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+               Ver mais
+              </button></p>
+
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="img/usa.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Teste de Usabilidade</h2>
+            <p> O teste de usabilidade é um método de avaliação da compreensão de uso de uma plataforma pelo usuário real, mas sem a necessidade de um produto finalizado, geralmente  é feita com protótipos mais simples e rápidos, que podem ser descartados com menos custo de desenvolvimento.</p>
+            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                Ver mais
+              </button></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="img/fun.png" alt="Generic placeholder image" width="140" height="140">
+              <h2>Teste Funcional</h2>
+              <p>Teste funcional, também chamado de teste caixa preta, baseia-se nos requisitos básicos do software, sendo o foco nos requisitos da aplicação, ou seja, nas ações que deve desempenhar.Nesse teste o código fonte é ignorado. Assim, ao se utilizar dessa técnica, o tester não está preocupado com os elementos constitutivos do software, mas sim na busca de garantir que os requisitos funcionais do produto estão consistentes.</p>
+              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                Ver mais
+              </button></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="img/reg.png" alt="Generic placeholder image" width="140" height="140">
+              <h2> Teste de Regressão</h2>
+              <p> Esse teste é a reexecução de testes em uma aplicação de versão mais recente do software, para garantir que não surgiram novos defeitos em componentes já analisados. No teste de regressão todos os testes executados anteriormente para versões antigas ou parte deles devem ser reexecutados para garantir que a nova versão do sistema continua estável e com o mínimo de efeitos colaterais.</p>
+              <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
+                Ver mais
+              </button></p>
+            </div>
+            
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right" ><a href="#"> Voltar ao topo </a></p>
+        <p>&copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="C:\Users\Eliziana\Documents\carousel\js\bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
