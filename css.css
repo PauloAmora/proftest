@@ -92,3 +92,54 @@ body {
     margin-top: 7rem;
   }
  }
+
+
+ /* Show in Large desktops and laptops */
+@media (min-width: 1200px) {
+
+  .bgimg {
+          background-image: url('img/1.png');
+          background-repeat: no-repeat;
+          
+      }
+  
+  }
+  
+  /*Hide in Other Small Devices */
+  
+  
+  /* Landscape tablets and medium desktops */
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+        .bgimg {
+          visibility: hidden;
+      }
+  
+  }
+  
+  /* Portrait tablets and small desktops */
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+            .bgimg {
+              visibility: hidden;
+      }
+  
+  }
+  
+  /* Landscape phones and portrait tablets */
+  @media (max-width: 767px) {
+  
+            .bgimg {
+              visibility: hidden;
+      }
+  
+  }
+  
+  /* Portrait phones and smaller */
+  @media (max-width: 480px) {
+  
+            .bgimg {
+              visibility: hidden;
+      }
+    } 
+  
